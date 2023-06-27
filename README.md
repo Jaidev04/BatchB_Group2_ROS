@@ -44,6 +44,8 @@ rviz2 -d src/rover/config/mapping.rviz
 ros2 run teleop_twist_keyboard teleop_twist_keyboard -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
 ~~~
 
+https://github.com/Jaidev04/BatchB_Group2_ROS/assets/95011033/b1c4a355-ebfa-47a0-980c-531b8b76f4dd
+
 *NAVIAGATION*
 ~~~
 cd ~/rover_ws && source ~/rover_ws/install/setup.bash
@@ -51,6 +53,9 @@ ros2 launch rover launch_sim.launch.py world:=./src/rover/worlds/obstacles.world
 rviz2 -d src/rover/config/navigation.rviz
 ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/rover/config/mapper_params_online_async.yaml use_sim_time:=true
 ~~~
+
+
+
 
 ![image](https://github.com/Jaidev04/BatchB_Group2_ROS/assets/95011033/7c231f8d-3799-44a1-8fa9-ad7be38ba384)
 
