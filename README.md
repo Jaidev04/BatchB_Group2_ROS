@@ -29,7 +29,7 @@ jd@jd-virtual-machine:~/workspace$ ros2 launch warehouse_robot_controller_pkg co
 After running this the robot starts moving and it will automatically avoid obstacles,i.e walls in our world.
 
 
-https://github.com/Jaidev04/BatchB_Group2_ROS/assets/95011033/25ddec06-a22e-48b9-8591-f820ada63dbc
+
 
 https://github.com/Jaidev04/BatchB_Group2_ROS/assets/95011033/60347135-60f1-4a31-bd86-e50988647e79
 
