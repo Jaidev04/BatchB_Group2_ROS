@@ -1,8 +1,4 @@
-# Author: Addison Sears-Collins
-# Date: March 19, 2021
-# ROS Version: ROS 2 Foxy Fitzroy
- 
-############## IMPORT LIBRARIES #################
+
 # Python math library
 import math 
  
