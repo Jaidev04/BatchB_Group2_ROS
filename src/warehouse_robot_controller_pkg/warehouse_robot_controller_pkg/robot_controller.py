@@ -41,7 +41,6 @@ class Controller(Node):
     """
     Class constructor to set up the node
     """
-    ##################### ROS SETUP ####################################################
     # Initiate the Node class's constructor and give it a name
     super().__init__('Controller')
  
