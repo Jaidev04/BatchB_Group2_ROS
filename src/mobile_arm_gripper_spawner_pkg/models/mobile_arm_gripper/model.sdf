@@ -9,7 +9,7 @@
        <link name='chassis'>
        
          <!--Position of the center will be: -->
-         <!--x=0 meters, y=0 meters, z=0.1 meters-->
+         <!--x=0.04 meters, y=0 meters, z=0 meters-->
          <!--Orientation of the center will be: -->
          <!--Roll=0 rad, Pitch=0 rad, Yaw=0 rad -->
          <pose>0 0 .04 0 0 0</pose>
