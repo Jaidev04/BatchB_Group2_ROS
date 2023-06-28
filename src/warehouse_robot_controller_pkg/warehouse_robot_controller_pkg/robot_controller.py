@@ -86,7 +86,7 @@ class Controller(Node):
     self.rightfront_dist = 999999.9 # Right-front
     self.right_dist = 999999.9 # Right
  
-    ################### ROBOT CONTROL PARAMETERS ##################
+  
     # Maximum forward speed of the robot in meters per second
     # Any faster than this and the robot risks falling over.
     self.forward_speed = 0.025
@@ -97,7 +97,7 @@ class Controller(Node):
     self.current_y = 0.0
     self.current_yaw = 0.0
  
-    ############# WALL FOLLOWING PARAMETERS #######################     
+    
     # Finite states for the wall following mode
     #  "turn left": Robot turns towards the left
     #  "search for wall": Robot tries to locate the wall        
